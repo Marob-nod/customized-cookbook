@@ -1,0 +1,18 @@
+@import './globals';
+
+.btn {
+    text-align: center;
+    border: solid 2px ;
+    border-radius: 15px;
+    font-size: $lightMobileFontSize;
+    padding: 5px;
+    color: $colorPrimary;
+    text-decoration: none;
+    transition: ease-in-out 0.4s;
+
+    &:hover {
+        background-color: $colorPrimary;
+        color: whitesmoke;
+        cursor: pointer;
+    }
+    }

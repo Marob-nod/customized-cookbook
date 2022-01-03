@@ -1,0 +1,21 @@
+@import './globals.scss';
+
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.1em;
+    
+
+    &_nav {
+        width: 30%;
+        display: flex;
+        justify-content: space-between;
+        text-decoration: none;
+        list-style: none;
+    }
+
+    .header_container_button-link {
+        text-decoration: none;
+    }
+}
